@@ -1,0 +1,60 @@
+/* match the structure of HTML then build */
+
+body{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+background-image: url(./yuji.avif);
+background-size: contain;
+background-position: center; 
+
+}
+
+
+h1{
+    background-color: aliceblue;
+    border-radius: 100px;
+    margin: 25px;
+    padding: 25px;
+    box-shadow: 55px;
+    border-style: double;
+    
+
+}
+
+p{
+background-color: rgb(9, 63, 111);
+    border-radius: 35px;
+    margin: 15px;
+    padding: 15px;
+    /* box-shadow: 55px; */
+    border-style: double;
+    color: blanchedalmond;
+
+
+}
+
+button{
+background-color: rgb(53, 2, 100);
+
+
+}
+
+#start-button{
+color: blanchedalmond;
+
+}
+
+
+#quiz-container{
+
+
+
+}
+
+#message{
+
+
+
+}
