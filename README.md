@@ -28,7 +28,7 @@ Start the quiz and see how many of these questions you can get right! Then, ente
 - https://simplestepscode.com/javascript-quiz-tutorial/
 
 - https://stackoverflow.com/questions/44314897/javascript-timer-for-a-quiz
-- https://teamtreehouse.com/community/any-one-know-how-to-make-a-restart-button
+
 - https://www.youtube.com/@JamesQQuick
 
 Thank you all.

@@ -5,7 +5,7 @@ const timerElement = document.getElementById('timer');
 // HTML grabbed to map into functions
 
 //time needed
-let timeLeft = 10;
+let timeLeft = 11;
 let currentQuestionIndex = 0;
 
 // make up anime related q's - array
@@ -105,7 +105,8 @@ function endQuiz(){
 //show them their high scores!
 function showHighScores(){
     const highScores = JSON.parse(localStorage.getItem('highScores')) || [];
-    const highScoresList = highScores.map(score => `li ${score.initials} : ${score.score}</li>`).join(" ");
+    // needed <> for li
+    const highScoresList = highScores.map(score => `<li>${score.initials} : ${score.score}</li>`).join(" ");
     quizContainer.innerHTML = `<h2 class ="winner"> Winner Circle:</h2><ul> yee yee<ul><ul> 
     ${highScoresList}</ul><button id = "back-button> Back</button>`;
     const backButton = document.getElementById('back-button') ;

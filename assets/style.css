@@ -24,14 +24,14 @@ h1{
 }
 
 p{
-background-color: rgb(9, 63, 111);
+background-color: rgb(27 88 143);
     border-radius: 10px;
     margin: 15px;
-    padding: 15px;
+    padding: 9px;
     /* box-shadow: 55px; */
     border-style: double;
-    color: blanchedalmond;
-    font-size: large;
+    color: #c9c5e1;
+    font-size: 25px;
 
 
 }
@@ -53,8 +53,8 @@ color: blanchedalmond;
 #quiz-container{
 
 color: bisque;
-background-color: black;
-border-radius: 0px 0px 205px 205px;
+background-color: #bf4141;
+border-radius: 0px 20205px px;
 padding: 40px;
 text-shadow: 2px 2px 5px white;
 /* background-image: url(./pika.png); */
