@@ -18,10 +18,10 @@ This timed quiz serves as an intense exercise with vanilla js functionalities. B
 ## Usage
 Start the quiz and see how many of these questions you can get right! Then, enter your high score for the local leaderboard.
 
-//sc of site will be here
+Follow the link to the short quiz!
+- https://mrobles-dev.github.io/Anime-Quiz/
 
-//link here
-
+![alt text](./assets/screencapture-mrobles-dev-github-io-Anime-Quiz-2023-04-13-01_03_41.png)
 
 ##Acknowledgements
 
