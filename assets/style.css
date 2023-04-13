@@ -15,8 +15,8 @@ background-position: center;
 h1{
     background-color: aliceblue;
     border-radius: 100px;
-    margin: 25px;
-    padding: 25px;
+    margin: 45px;
+    padding: 55px;
     box-shadow: 55px;
     border-style: double;
     
@@ -25,7 +25,7 @@ h1{
 
 p{
 background-color: rgb(9, 63, 111);
-    border-radius: 35px;
+    border-radius: 10px;
     margin: 15px;
     padding: 15px;
     /* box-shadow: 55px; */
@@ -54,7 +54,11 @@ color: blanchedalmond;
 
 color: bisque;
 background-color: black;
-
+border-radius: 0px 0px 205px 205px;
+padding: 40px;
+text-shadow: 2px 2px 5px white;
+/* background-image: url(./pika.png); */
+background-image: contain;
 }
 
 #message{
@@ -62,6 +66,17 @@ background-color: black;
 color: bisque;
     background-color: black;
 
+}
+
+#timer{
+background-color: rgb(9, 63, 111);
+    border-radius: 10px;
+    margin: 15px;
+    padding: 15px;
+    /* box-shadow: 55px; */
+    border-style: double;
+    color: blanchedalmond;
+    font-weight: 20px;
 }
 
 

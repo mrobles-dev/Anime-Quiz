@@ -86,7 +86,7 @@ function endQuiz(){
     timerElement.textContent = " ";
     const wrongAnswers = questions.length - correctAnswer;
     const gameOverMessage = currentQuestionIndex === questions.length 
-    && wrongAnswers ===0 ? 'Congratulations!' : 'Game Over Friend';
+    && wrongAnswers === 0 ? 'Congratulations!' : 'Game Over Friend';
     quizContainer.innerHTML = `<h2 class="game-over"> ${gameOverMessage}</h2>
     <p> Your score: ${correctAnswer} correct, ${wrongAnswers} wrong</p>
     <label for="initials"> Enter Your Initials: </label>
@@ -95,9 +95,10 @@ function endQuiz(){
     const  saveScoreButton = document.getElementById('save-score');
     saveScoreButton.addEventListener("click", () => {
         const initials = document.getElementById("initials").value;
-        const highScores = JSON.parse(localStorage.getElementById('highScores')) || [];
+        const highScores = JSON.parse(localStorage.getItem('highScores')) || [];
         highScores.push({initials, score: timeLeft});
-        
+        // forgot to stringify - done
+        localStorage.setItem("highScores", JSON.stringify(highScores));
     }); //close sSB click
 }
 
