@@ -31,6 +31,8 @@ Follow the link to the short quiz!
 
 - https://www.youtube.com/@JamesQQuick
 
+- OpenAI ChatGPT for logic assistance to display end game message
+
 Thank you all.
 
 ##License

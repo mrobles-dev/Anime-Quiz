@@ -84,6 +84,7 @@ currentQuestion.answers.forEach(answer => {
 function endQuiz(){
     clearInterval(timer);
     timerElement.textContent = " ";
+    //asked ChatGPT for help with logic in displaying these messages
     const wrongAnswers = questions.length - correctAnswer;
     const gameOverMessage = currentQuestionIndex === questions.length 
     && wrongAnswers === 0 ? 'Congratulations!' : 'Game Over Friend';
